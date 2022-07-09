@@ -1,0 +1,29 @@
+
+# backup
+```
+ source venv/Scripts/activate
+```
+#### venvの中に入った
+```
+ pip list
+ pip freeze > requirements.txt
+ deactivate
+```
+#### clear
+```
+python3 -m venv --clear venv
+```
+#### gitignore.. or delet
+```
+du -s *
+\rm -r log temp venv
+```
+# rebuild
+```
+python3 -m venv venv
+```
+```
+ source venv/Scripts/activate
+ pip install -r requirements.txt
+```
+
